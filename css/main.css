@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hola{
+    background-color: aquamarine;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        width: 100vw;
+    height: 25vh;
+    background-image: linear-gradient(to top, #000, #f00);
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+.logo{
+   height: 20vh;
+}
+.body{
+    height: min-content;background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    width: 100vw;
+}
+.chanOptions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    height: 70vh;
+    width: 45vw;
+    margin: 5vh;border:2px solid #f00;
+}
+.canvas{
+    border:2px solid #000;
+    background-color: #fff;
+}
+.chan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.none{
+  
+    opacity: 0;
+}
+.block{
+
+    opacity: 1;
+}
+.cap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.options{
+width: 99%;
+height: 80%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 50% 50%;
+}
+.options div{
+    border:1px solid #fff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.options div img{
+    height: 80%;
+    width: 80%;
+  
+}
+.message{
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    height: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tshirt{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.penis{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.finalMessage{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.filereader{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.options div:hover{
+    background-image: linear-gradient(to top,#000,#f00);
+}
+.picClass{
+    height: 50px;
+    width: 50px;
+}
+.download{
+    width: min-content;
+    height:min-content;
+    background-image:linear-gradient(to top,#f00,#000) ;
+    color: #fff;
+    font-family: 'Kanit', sans-serif;
+    font-size: x-large;
+   cursor: pointer;
+    border:1px solid #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width: 1200px) {
+    .body{
+        padding-top: 7%;
+       flex-direction: column;
+       height: min-content;
+    }
+    .chan{
+        min-height: min-content;
+        min-width: min-content;
+      
+    }
+    .chanOptions{
+        width: 90vw;
+        min-height: 100vh;
+     
+    }
+}
