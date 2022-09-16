@@ -188,7 +188,7 @@ grid-template-rows: 50% 50%;
         width: 90vw;
         height: 100vh;
         min-height:min-height;
-        overflow:hidden;
+        overflow:scroll;
         border:none;
     }
 }
