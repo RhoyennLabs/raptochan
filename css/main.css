@@ -177,7 +177,7 @@ grid-template-rows: 50% 50%;
        flex-direction: column;
        height: min-content;
         width:min-content;
-        overflow:hidden;
+    
     }
     .chan{
         min-height: min-content;
