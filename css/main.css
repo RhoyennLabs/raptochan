@@ -175,8 +175,7 @@ grid-template-rows: 50% 50%;
     .body{
         padding-top: 7%;
        flex-direction: column;
-       height: min-content;
-        width:min-content;
+     
     
     }
     .chan{
