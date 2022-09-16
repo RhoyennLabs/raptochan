@@ -154,11 +154,12 @@ grid-template-rows: 50% 50%;
 
 @media (max-width: 1200px) {
     .body{
-        padding-top: 7%;
+        padding-top: 0;
        flex-direction: column;
-       min-height:min-content;
-        height:130vh;
+     
+        height:min-content;
         overflow:hidden;
+        
     }
     .chan{
         min-height: min-content;
