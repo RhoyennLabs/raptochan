@@ -170,3 +170,25 @@ grid-template-rows: 50% 50%;
         overflow:hidden;
     }
 }
+
+@media (max-width: 600px) {
+    .body{
+        padding-top: 7%;
+       flex-direction: column;
+       height: min-content;
+        width:min-content;
+        overflow:hidden;
+    }
+    .chan{
+        min-height: min-content;
+        min-width: min-content;
+      
+    }
+    .chanOptions{
+        width: 90vw;
+        height: 100vh;
+        min-height:min-height;
+        overflow:hidden;
+    }
+}
+
