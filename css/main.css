@@ -156,7 +156,9 @@ grid-template-rows: 50% 50%;
     .body{
         padding-top: 7%;
        flex-direction: column;
-       height: min-content;
+       min-height:min-content;
+        height:130vh;
+        overflow:hidden;
     }
     .chan{
         min-height: min-content;
@@ -175,7 +177,7 @@ grid-template-rows: 50% 50%;
     .body{
         padding-top: 7%;
        flex-direction: column;
-     
+       
     
     }
     .chan{
