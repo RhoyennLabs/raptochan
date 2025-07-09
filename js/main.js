@@ -97,20 +97,7 @@ let logo=false
         x:0,
         y:0
     }
-    let penis1={
-        url:"img/penis1.png",
-        opacity:0,
-        cargaOK:false,
-        x:0,
-        y:0
-    }
-    let penis2={
-        url:"img/penis2.png",
-        opacity:0,
-        cargaOK:false,
-        x:0,
-        y:0
-    }
+
     let boxers={
         url:"img/boxers.png",
         opacity:0,
@@ -151,8 +138,7 @@ gorramarihuano.image=new Image()
 gorramexicana.image=new Image()
 gorraminera.image=new Image()
 gorraverdad.image=new Image()
-penis1.image=new Image()
-penis2.image=new Image()
+
 boxers.image=new Image()
 boxerminero.image=new Image()
 sullynodeboxers.image=new Image()
@@ -171,8 +157,7 @@ gorramarihuano.image.src=gorramarihuano.url
 gorramexicana.image.src=gorramexicana.url
 gorraminera.image.src=gorraminera.url
 gorraverdad.image.src=gorraverdad.url
-penis1.image.src=penis1.url
-penis2.image.src=penis2.url
+
 boxers.image.src=boxers.url
 boxerminero.image.src=boxerminero.url
 sullynodeboxers.image.src=sullynodeboxers.url
@@ -247,23 +232,9 @@ document.querySelector('.tshirtoption6').addEventListener('click',()=>{
     document.querySelector('.penis').style.display='flex'
 })
 
-//penis:
 
-document.querySelector('.penisoption1').addEventListener('click',()=>{
-    ctx.drawImage(penis1.image,0,0)
-    document.querySelector('.penis').style.display='none'
-    document.querySelector('.filereader').style.display='flex'
-})
-document.querySelector('.penisoption2').addEventListener('click',()=>{
-    ctx.drawImage(penis2.image,0,0)
-    document.querySelector('.penis').style.display='none'
-    document.querySelector('.filereader').style.display='flex'
-})
-document.querySelector('.penisoption3').addEventListener('click',()=>{
- 
-    document.querySelector('.penis').style.display='none'
-    document.querySelector('.filereader').style.display='flex'
-})
+
+
 document.querySelector('.penisoption4').addEventListener('click',()=>{
     ctx.drawImage(boxers.image,0,0)
     document.querySelector('.penis').style.display='none'
